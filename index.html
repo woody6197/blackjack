@@ -8,7 +8,27 @@
 </head>
 <body>
     <div>
+        <div class="header">
+            <h1>BlackJack Game</h1>
+        </div>
+        <div class="action-buttons">
+            <button id="startButton">Start Game</button>
+            <button id="hitButton">Hit</button>
+            <button id="standButton">Stand</button>
+        </div>
+        <div class="game-area">
+            <div class="player-area">
+                <h2>Player</h2>
+                <div id="playerCards" class="cards-container"></div>
+                <div id="playerScore" class="score-display">Current Score: 0</div>
+            </div>
+            <div class="dealer-area">
+                <h2>Dealer</h2>
+                <div id="dealerCards" class="cards-container"></div>
+                <div id="dealerScore" class="score-display">Current Score: 0</div>
+            </div>
 
+        </div>
     </div>
     <script src="./cards.js"></script>
 </body>
